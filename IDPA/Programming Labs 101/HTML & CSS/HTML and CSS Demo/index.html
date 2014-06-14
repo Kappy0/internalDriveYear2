@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<!--index.html
+    	The main page of the site. Introduces user
+        to competitive Smash Bros. and offers navigation
+        to the rest of the site.
+    -->
+
+<head>
+	<meta charset="utf-8">
+	<title>Competitive Super Smash Bros.</title>
+    
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="html5reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Load Javascript -->
+    <script src="index.js"></script>
+</head>
+
+<body>
+	<div id="titleHeader">
+    	<h1>Competitive <em>Super Smash Bros.</em></h1>
+    </div> <!-- end titleHeader div -->
+    
+    <div id="left">
+        <header>
+            <nav>
+                <ul>
+                	<li class="navTitle">Navigation</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">History of Smash</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="about.html">About the Developer</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="help">
+            <ul>
+                <li class="navTitle">Other helpful links</li>
+                <li><a href="http://www.smashboards.com">Smashboards</a></li>
+                <li><a href="http://www.smashbros.com/us/">Smash 4 Website</a></li>
+                <li><a href="https://www.youtube.com/watch?v=NSf2mgkRm7Q&list=PLoUHkRwnRH-IXbZfwlgiEN8eXmoj6DtKM&index=1">Smash Documentary</a></li>
+            </ul>
+        </div> <!-- end help div -->
+    </div> <!-- end left div -->
+    
+    <div id="container">
+    	<h2>Welcome to the world of competitive <em>Super Smash Bros.</em>!</h2>
+        
+        <p>
+        	Competitive <em>Super Smash Bros.</em> is growing, and
+            with that growth comes a need to get information for
+            beginners out there! This site is dedicated to 
+            providing said information to those of you whom
+            want to learn competitive <em>Super Smash Bros.</em> 
+        </p>
+        
+        <h2>What you'll find here</h2>
+        
+        <p>
+        	Here you'll find a brief history about competitive <em>Super Smash Bros</em>,
+            the rules for each game in a competitive setting, and a way to order a copy of
+            the games for yourself! You can also find a little bit about the web developer,
+            a competitior in <em>Super Smash Bros.</em> himself.
+        </p>
+        
+        <hr>
+        
+        <form name="orderForm">
+        	 <h2>
+             	Start your training in competitive <em>Smash Bros.</em> today! 
+                 
+                <br>           
+                            
+                Get copies of the game for you, for your friends, or for your family!
+            </h2>
+                        
+            <p>Please enter the amount of copies you want of each game.</p>
+                        
+        	<table class="datatable">
+                <tr>
+                    <th>Game</th>
+                    <th>Price</th>
+                    <th>Amount</th>
+                </tr>
+                
+                <tr>
+                    <td><label for="smash64"><em>Smash 64</em></label></td>
+                    <td>$19.99</td>
+                    <td><input type="text" id="smash64" name="smash64" value="0" size="1"></td>	
+                </tr>
+                
+                <tr>
+                    <td><label for="melee"><em>Melee</em></label></td>
+                    <td>$34.99</td>
+                    <td><input type="text" id="melee" name="melee" value="0" size="1"></td>	
+                </tr>
+                
+                <tr>
+                    <td> <label for="brawl"><em>Brawl</em></label></td>
+                    <td>$49.99</td>
+                    <td><input type="text" id="brawl" name="brawl" value="0" size="1"></td>	
+                </tr>
+            </table>
+            
+            <p>
+            	<input type="reset" value="Clear Form">
+                <input type="button" value="Submit Order" onClick="order()">
+            </p>
+            
+            <p id="confirmation"></p>
+            
+            <p>
+                <label for="total">Your Total (with 5% tax):</label>
+                <input type="text" id="total" name="total">
+            </p>
+        </form>
+    </div> <!-- end container div -->
+    
+	<footer>
+    	<p>Page last modified: <span id="myDate"></span></p>
+    </footer>
+    
+    <script>
+		var date = document.lastModified;
+		
+		document.getElementById("myDate").innerHTML = date;
+	</script>
+</body>
+</html>

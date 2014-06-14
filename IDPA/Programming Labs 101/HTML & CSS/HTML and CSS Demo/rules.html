@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+	<!-- rules.html
+    	Talks about competitive rulesets
+        for each Super Smash Bros. game.
+    -->
+<head>
+	<meta charset="utf-8">
+	<title>Smash Bros. Rulesets</title>
+    
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="html5reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Load Javascript -->
+</head>
+
+<body>
+	<div id="titleHeader">
+    	<h1>The Rules</h1>
+    </div> <!-- end titleHeader div -->
+    
+    <div id="left">
+        <header>
+            <nav>
+                <ul>
+                	<li class="navTitle">Navigation</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">History of Smash</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="about.html">About the Developer</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="help">
+            <ul>
+                <li class="navTitle">Other helpful links</li>
+                <li><a href="http://www.smashboards.com">Smashboards</a></li>
+                <li><a href="http://www.smashbros.com/us/">Smash 4 Website</a></li>
+                <li><a href="https://www.youtube.com/watch?v=NSf2mgkRm7Q&list=PLoUHkRwnRH-IXbZfwlgiEN8eXmoj6DtKM&index=1">Smash Documentary</a></li>
+            </ul>
+        </div> <!-- end help div -->
+    </div> <!-- end left div -->
+    
+    <div id="container">
+    	<p>
+        	Every <em>Smash Bros.</em> game, while keeping the core gameplay intact, have different
+            rules due to the unique physics present in each game. Here are the more standard rules
+            for every game so far in the series.
+        </p>
+        
+        <p>
+        	NOTE: Stagelists are different depending on where the tournament is held and who is 
+            running the tournament. The stages I listed are the ones the majority of the
+            community uses at every tournament.
+        </p>
+        
+        <div id="Smash64">
+            <h2><em>Super Smash Bros. 64</em></h2>
+            
+            <ul>
+            	<li>- 5 stock</li>
+                <li>- 8 Minute Timer</li>
+                <li>- Items Off</li>
+                <li>- Best of 3</li>
+                
+                <li class="stages">
+                	<strong>Stages</strong>
+                	
+                    <ul>
+                    	<li>- Dreamland</li>
+                        <li>- Hyrule Castle</li>
+                    </ul>
+                </li>
+            </ul>
+        </div> <!-- end smash64 div -->
+            
+        <div id="Melee">
+            <h2><em>Super Smash Bros. Melee</em></h2>
+            
+            <ul>
+            	<li>- 4 stock</li>
+                <li>- 8 Minute Timer</li>
+                <li>- Items Off</li>
+                <li>- Best of 3</li>
+                
+                <li class="stages">
+                	<strong>Stages</strong>
+                	
+                    <ul>
+                    	<li>- Final Destination</li>
+                        <li>- Battlefield</li>
+                        <li>- Dreamland</li>
+                        <li>- Yoshi's Story</li>
+                        <li>- Pokemon Stadium</li>
+                    </ul>
+                </li>
+            </ul>
+        </div> <!-- end melee div -->
+            
+        <div id="Brawl">
+            <h2><em>Super Smash Bros. Brawl</em></h2>
+            
+            <ul>
+            	<li>- 3 stock</li>
+                <li>- 8 Minute Timer</li>
+                <li>- Items Off</li>
+                <li>- Best of 3</li>
+                
+                <li class="stages">
+                	<strong>Stages</strong>
+                	
+                    <ul>
+                    	<li>- Final Destination</li>
+                        <li>- Battlefield</li>
+                        <li>- Smashville</li>
+                        <li>- Yoshi's Island</li>
+                        <li>- Pokemon Stadium 1</li>
+                        <li>- Lylat Cruise</li>
+                        <li>- Frigate Orpheon</li>
+                    </ul>
+                </li>
+            </ul>
+        </div> <!-- end brawl div -->
+    </div> <!-- end container div -->
+    
+	<footer>
+    	<p>Page last modified: <span id="myDate"></span></p>
+    </footer>
+    
+    <script>
+		var date = document.lastModified;
+		
+		document.getElementById("myDate").innerHTML = date;
+	</script>
+</body>
+</html>

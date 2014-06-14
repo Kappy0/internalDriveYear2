@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<!-- about.html
+    	Talks about me, Ryan Klaproth, the 
+        developer of this web site.
+    -->
+<head>
+	<meta charset="utf-8">
+	<title>About the Developer</title>
+    
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="html5reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Load Javascript -->
+</head>
+
+<body>
+	<div id="titleHeader">
+    	<h1>About the Developer</h1>
+    </div> <!-- end titleHeader div -->
+	
+	<img src="images/selfie.jpg" alt="Ryan Klaproth">
+    
+    <div id="left">
+        <header>
+            <nav>
+                <ul>
+                	<li class="navTitle">Navigation</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">History of Smash</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="about.html">About the Developer</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="help">
+            <ul>
+                <li class="navTitle">Other helpful links</li>
+                <li><a href="http://www.smashboards.com">Smashboards</a></li>
+                <li><a href="http://www.smashbros.com/us/">Smash 4 Website</a></li>
+                <li><a href="https://www.youtube.com/watch?v=NSf2mgkRm7Q&list=PLoUHkRwnRH-IXbZfwlgiEN8eXmoj6DtKM&index=1">Smash Documentary</a></li>
+            </ul>
+        </div> <!-- end help div -->
+    </div> <!-- end left div -->
+    
+    <div id="container">
+    	<h2>Ryan Klaproth</em>!</h2>
+		
+        <p>
+        	Ryan "<em>Kappy</em>" "<em>SwagTrain</em>" Klaproth has been playing <em>Super Smash Bros.</em>
+            since <em>Super Smash Bros. 64</em> first hit store shelves. It wasn't until <em>Super Smash Bros. Brawl</em>
+            was released that he decided to take part in the competitive community, and he's been loving it ever since.
+            Since then, he's taken up competitive <em>Super Smash Bros. Melee</em> and quit 
+            <em>Super Smash Bros. Brawl</em>. Some of his <em>Smash Bros.</em> accomplishments are being 
+            one of the top 10 players in Illinois and one of the top 5 Kirby players in the country in 
+            <em>Super Smash Bros. Brawl</em>.     
+        </p>
+        
+        <h2>Hobbies and School</h2>
+        
+        <p>
+        	Some of Kappy's hobbies include dancing, bike riding, and playing competitive <em>Pokemon</em>. He is
+            currently a 5th year student at DePaul University with a major in Computer Games Development (focus in
+            programming) and a minor in Computer Science.
+            
+            
+        </p>
+    </div> <!-- end container div -->
+	
+    
+    <footer>
+    	<p>Page last modified: <span id="myDate"></span></p>
+    </footer>
+    
+    <script>
+		var date = document.lastModified;
+		
+		document.getElementById("myDate").innerHTML = date;
+	</script>
+</body>
+</html>

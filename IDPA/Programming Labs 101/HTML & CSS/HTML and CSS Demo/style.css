@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Selectors for all pages */
+
+header
+{
+	float: left;
+}
+
+#titleHeader
+{
+	margin-bottom: .1em;
+}
+
+#left
+{
+	width: 5em;
+	height: 1em;
+}
+
+a
+{
+	color: #A66200;
+}
+
+a:hover
+{
+	color: #FFFF00;
+}
+
+a:visited
+{
+}
+
+a:active
+{
+	color: 
+}
+
+h1, p
+{
+	color: white;
+}
+
+h1
+{
+	background-color: #180773;
+	
+	height: 2em;
+	
+	font-size: 2.2em;
+	
+	text-align: center;
+	
+	padding-top: .5em;
+	
+	margin: auto;
+}
+
+h2
+{
+	color: #DCF900;
+	
+	font-size: 1.3em;
+	
+	margin-bottom: 1em;
+}
+
+p
+{
+	margin-bottom: 1em;
+}
+
+body
+{
+	background-color: #2E16B1;
+}
+
+
+nav ul li
+{
+	background-color: #FFC673;
+	
+	list-style-type: none;
+	
+	width: 9em;
+	
+	border-style: solid;
+	border-width: .1em;
+	
+	text-align: center;
+	text-transform: uppercase;
+	
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+nav ul li:hover
+{
+	background-color: #FFCF73;
+}
+
+#help
+{
+	float: left;
+	
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#help ul li
+{
+	background-color: #FFC673;
+	
+	list-style-type: none;
+	
+	width: 9em;
+	
+	border-style: solid;
+	border-width: .1em;
+	
+	text-align: center;
+	text-transform: uppercase;
+	
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+nav ul li:hover
+{
+	background-color: #FFCF73;
+}
+
+#help ul li:hover
+{
+	background-color: #FFCF73;
+}
+
+nav .navTitle
+{
+	background-color: #402C84;
+	
+	width: 9em;
+	
+	border-style: solid;
+	border-width: .1em;
+	
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+#help .navTitle
+{
+	background-color: #402C84;
+	
+	width: 9em;
+	
+	border-style: solid;
+	border-width: .1em;
+	
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+nav .navTitle:hover
+{
+	background-color: #6949D7;
+}
+
+#help .navTitle:hover
+{
+	background-color: #6949D7;
+}
+
+#container
+{
+	width: 65%;
+	
+	position: relative;
+		left: .8em;
+		
+	margin: auto;
+}
+
+footer
+{
+	background-color: #FFC673;
+	
+	height: 2em;
+		
+	text-align: center;
+	
+	clear: both;
+	
+	padding-top: 1em;
+	
+	margin: auto;
+}
+
+footer p
+{
+	color: #A66D00; 
+}
+
+/* Selectors specific to index.html */
+.datatable
+{
+	width: 30%;
+	
+	border: .1em solid white;
+	
+	background-color: #452B83;
+	
+	color: white;
+	
+	text-align: center;
+	
+	margin-bottom: .5em;
+}
+
+th, td
+{
+	border: .1em solid white;
+}
+
+.trlight
+{
+	background-color: #6949D7;
+}
+
+/* Selectors specific to history.html */
+
+/* Selectors specific to rules.html */
+#Smash64, #Melee, #Brawl
+{
+	background-color: #946BD6;	
+	
+	width: 30%;
+	height: 17em;
+	
+	border: white;
+	border-radius: 1em;
+	
+	float: left;
+	
+	position: relative;
+		bottom: 2em;
+		
+	margin-right: 1em;
+	margin-bottom: 1em;
+	
+	padding-bottom: 1em;
+	padding-top: .5em;
+}
+
+#Smash64, #Melee, #Brawl h2
+{
+	text-align: center;
+}
+
+#Smash64 ul
+{
+	list-style-type: none;
+	
+	text-align: left;
+	
+	color: white;
+	
+	margin-left: .3em;
+}
+
+#Melee ul
+{
+	list-style-type: none;
+	
+	text-align: left;
+	
+	color: white;
+	
+	margin-left: .3em;
+}
+
+#Brawl ul
+{
+	list-style-type: none;
+	
+	text-align: left;
+	
+	color: white;
+	
+	margin-left: .3em;
+}
+
+.stages
+{
+	margin-top: 1em;
+}
+
+/* Selectors specific to about.html */
+img
+{
+	float: right;
+	
+	margin: 1.5em;
+}
+
