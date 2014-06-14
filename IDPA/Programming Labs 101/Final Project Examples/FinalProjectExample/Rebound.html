@@ -1,0 +1,220 @@
+<HTML>
+<HEAD>
+<TITLE>Rebound</TITLE>
+<style>
+   #playingArea
+   {
+      position: absolute;
+      top: 100;
+      left: 100;
+      border: 1px solid black;
+      width: 500;
+      height: 500;
+      background-color: rgb(192,192,192);
+   }
+   #paddle
+   {
+      position: absolute;
+      top: 470;
+      left: 228;
+      width: 64;
+      height: 16;
+	}
+   #ball
+   {
+      position: absolute;
+      top: 4;
+      left: 200;
+      width: 16;
+      height: 16;
+   }
+   #score
+   {
+      position: absolute;
+      top: 486;
+      left: 0;
+      width: 500;
+      height: 14;
+      font-size: 10pt;
+      color: white;
+      background-color: rgb(32,128,64);
+   }
+</style>
+<script>
+//instance vars
+var ball;
+var paddle;
+var score;
+
+//initial speeds
+var dx = 6;
+var dy = 6;
+var currentScore = 0;
+var timer;
+
+//set initial conditions for ball and paddle
+var paddleLeft = 228;
+var ballLeft = 200;
+var ballTop = 4;
+   
+function init()
+{
+	//instantiate HTML object instance vars
+	ball = document.getElementById('ball');
+	paddle = document.getElementById('paddle');
+	score = document.getElementById('score');
+	
+	//register key listener with document object
+    document.onkeydown = keyListener;
+	
+	//start the game loop
+    start();
+}
+
+function keyListener(e)
+{
+	if(!e)
+	{
+		//for IE
+		e = window.event;
+    }
+    if(e.keyCode==37 && paddleLeft > 0)
+	{
+		//keyCode 37 is left arrow
+		paddleLeft -= 10
+		paddle.style.left = paddleLeft + 'px';
+    }
+    if(e.keyCode==39 && paddleLeft < 436)
+	{
+		//keyCode 39 is right arrow
+		paddleLeft += 10
+		paddle.style.left = paddleLeft + 'px';
+    }
+    // FYI - keyCode 38 is up arrow, 
+    //       keyCode 40 is down arrow
+}
+
+function start()
+{
+	//game loop
+    detectCollisions();
+    render();
+    difficulty();
+            
+    //end conditions
+    if(ballTop < 470)
+	{
+		//still in play - keep the loop going
+        timer = setTimeout('start()',50);
+    }
+    else
+    {
+        gameOver();
+    }
+}
+
+function detectCollisions()
+{
+   //just reflect the ball on a collision
+   //a more robust engine could change trajectory of 
+   //the ball based on where the ball hits the paddle
+   if(collisionX())
+   {
+      dx *= -1;
+   }
+   if(collisionY())
+   {
+      dy *= -1;
+   }
+}
+        
+function collisionX()
+{
+   //check left and right boundaries
+   if(ballLeft < 4 || ballLeft > 480)
+   {
+      return true;
+   }
+   return false;
+}
+        
+function collisionY()
+{
+   //check if at top of playing area
+   if(ballTop < 4)
+   {
+      return true;
+   }
+   //check to see if ball collided with paddle
+   if(ballTop > 450)
+   {
+      if(ballLeft > paddleLeft && ballLeft < paddleLeft + 64)
+	  {
+        return true;
+	  }
+   }
+   return false;
+}
+        
+function render()
+{
+   moveBall();
+   updateScore();
+}
+        
+function moveBall()
+{
+   ballLeft += dx;
+   ballTop += dy;
+   ball.style.left = ballLeft;
+   ball.style.top = ballTop;
+}
+        
+function updateScore()
+{
+   currentScore += 5;
+   score.innerHTML = 'Score: ' + currentScore;
+}
+        
+function difficulty()
+{
+   //as the game progresses, increase magnitude of the 
+   //vertical speed
+   if(currentScore % 1000 == 0)
+   {
+      if(dy > 0)
+	  {
+         dy += 1;
+	  }
+      else
+	  {
+         dy -= 1;
+	  }
+   }
+}
+        
+function gameOver()
+{
+   //end the game by clearing the timer and modifying 
+   //the score label
+   clearTimeout(timer);
+   score.innerHTML += "   Game Over";
+   score.style.backgroundColor = 'rgb(128,0,0)';
+}
+</script>
+</HEAD>
+<BODY onLoad="init()">
+<h1>Rebound</h1>
+<div id="playArea">
+	<div id="paddle">
+		<img src="paddle1.png">
+	</div>
+	<div id="ball">
+		<img src="ball.png">
+	</div>
+	<div id="score">
+		Score: 0
+	</div>
+</div>
+</BODY>
+</HTML>
