@@ -29,15 +29,6 @@ a:hover
 	color: #FFFF00;
 }
 
-a:visited
-{
-}
-
-a:active
-{
-	color: 
-}
-
 h1, p
 {
 	color: white;
@@ -189,6 +180,12 @@ nav .navTitle:hover
 		left: .8em;
 		
 	margin: auto;
+}
+
+textarea
+{
+	width: 25em;
+	height: 17em;
 }
 
 footer

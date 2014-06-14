@@ -37,17 +37,16 @@ function order()
 	
 	total = subTotal + tax;
 	
-	document.getElementById("confirmation").innerHTML = "<b>Your Order:</b> " + "<br>" + 
-    "Amount of " + "<em>Smash 64</em> " + "copies ordered: " + qtySmash64 + "<br>" +
-	"Amount of " + "<em>Melee</em> " + "copies ordered: " + qtyMelee + "<br>" + 
-	"Amount of " + "<em>Brawl</em> " + "copies ordered: " + qtyBrawl + "<br>" + "<br>" +
-	"Total amount for " + "<em>Smash 64</em>: " + "$" + smash64Amt + "<br>" +
-	"Total amount for " + "<em>Melee</em>: " + "$" + meleeAmt + "<br>" +
-	"Total amount for " + "<em>Brawl</em>: " + "$" + brawlAmt + "<br>" + "<br>" +
-	"Subtotal: " + "$" + subTotal + "<br>" +
-	"Tax (5%): " + "$" + tax.toFixed(2) + "<br>";
-	
-	document.orderForm.total.value = "$" + total.toFixed(2);
+	document.getElementById("confirmation").innerHTML = "Your Order:" + "\n" +
+    "Amount of " + "Smash 64 " + "copies ordered: " + qtySmash64 + "\n" +
+	"Amount of " + "Melee " + "copies ordered: " + qtyMelee + "\n" + 
+	"Amount of " + "Brawl " + "copies ordered: " + qtyBrawl + "\n" + "\n" +
+	"Total amount for " + "Smash 64: " + "$" + smash64Amt.toFixed(2) + "\n" +
+	"Total amount for " + "Melee: " + "$" + meleeAmt.toFixed(2) + "\n" +
+	"Total amount for " + "Brawl: " + "$" + brawlAmt.toFixed(2) + "\n" + "\n" +
+	"Subtotal: " + "$" + subTotal.toFixed(2) + "\n" +
+	"Tax (5%): " + "$" + tax.toFixed(2) + "\n" + "\n" +
+	"Your total (with tax): " + "$" + total.toFixed(2);
 }
 
 function addLoadEvent(funct)
