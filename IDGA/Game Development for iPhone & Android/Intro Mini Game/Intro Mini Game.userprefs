@@ -1,11 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Mouse.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Rotation.js">
     <Files>
-      <File FileName="Assets\Scripts\Mouse.js" Line="7" Column="89" />
-      <File FileName="Assets\Scripts\Mouse.js" Line="7" Column="89" />
+      <File FileName="Assets\Scripts\Functions.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Mouse.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Disappear.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Control.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Variables.js" Line="11" Column="2" />
+      <File FileName="Assets\Scripts\Rotation.js" Line="20" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

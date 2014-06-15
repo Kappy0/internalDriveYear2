@@ -48,7 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Control.js" />
      <Compile Include="Assets\Scripts\Disappear.js" />
+     <Compile Include="Assets\Scripts\Functions.js" />
      <Compile Include="Assets\Scripts\Mouse.js" />
+     <Compile Include="Assets\Scripts\Rotation.js" />
+     <Compile Include="Assets\Scripts\Variables.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
