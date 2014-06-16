@@ -1,7 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TitleGUI.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BackgroundScroller.js">
     <Files>
+      <File FileName="Assets\Scripts\BackgroundScroller.js" Line="9" Column="85" />
       <File FileName="Assets\Scripts\TitleGUI.js" Line="6" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
