@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BackgroundScroller.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveScript.js">
     <Files>
+      <File FileName="Assets\Scripts\MoveScript.js" Line="13" Column="70" />
       <File FileName="Assets\Scripts\BackgroundScroller.js" Line="9" Column="85" />
-      <File FileName="Assets\Scripts\TitleGUI.js" Line="6" Column="21" />
+      <File FileName="Assets\Scripts\TitleGUI.js" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

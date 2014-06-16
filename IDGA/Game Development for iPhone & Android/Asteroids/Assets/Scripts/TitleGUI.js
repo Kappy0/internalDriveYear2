@@ -1,4 +1,5 @@
 ﻿#pragma strict
+
 var MySkin: GUISkin;
 
 function Start () {}
