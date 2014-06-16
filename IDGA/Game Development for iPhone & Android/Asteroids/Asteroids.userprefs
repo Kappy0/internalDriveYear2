@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\Asteroids\Assets\Scripts\TitleGUI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TitleGUI.js">
     <Files>
-      <File FileName="..\Asteroids\Assets\Scripts\TitleGUI.js" Line="6" Column="21" />
+      <File FileName="Assets\Scripts\TitleGUI.js" Line="6" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
