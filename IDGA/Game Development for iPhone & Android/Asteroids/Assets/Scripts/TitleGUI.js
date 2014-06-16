@@ -11,8 +11,8 @@ function OnGUI()
 	var buttonW: int = 100;
 	var buttonH: int = 50;
 
-	var halfScreenW: float = Screen.width / 2;
-	var halfButtonW: float = buttonW / 2;
+	var halfScreenW: float = Screen.width / 2.0;
+	var halfButtonW: float = buttonW / 2.0;
 
 	if(GUI.Button(Rect(halfScreenW - halfButtonW, 560, buttonW, buttonH), "Start"))
 	{
