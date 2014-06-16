@@ -12,3 +12,11 @@ function Update ()
 	transform.position.x = Mathf.Clamp(transform.position.x, -4, 4);
 	transform.position.z = Mathf.Clamp(transform.position.z, -1.7, 1.7);
 }
+
+function OnCollisionEnter(deadShip : Collision)
+{
+	if(deadShip.gameObject.tag == "asteroid")
+	{
+		Destroy(gameObject);
+	}
+}
