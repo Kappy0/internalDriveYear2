@@ -1,12 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerRespawn.js">
     <Files>
-      <File FileName="Assets\Scripts\MoveScript.js" Line="19" Column="3" />
-      <File FileName="Assets\Scripts\KillEverything.js" Line="10" Column="2" />
-      <File FileName="Assets\Scripts\SpawnScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AsteroidMove.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MoveScript.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MoveScript.js" Line="32" Column="3" />
+      <File FileName="Assets\Scripts\PlayerRespawn.js" Line="28" Column="18" />
+      <File FileName="Assets\Scripts\KillEverything.js" Line="5" Column="22" />
+      <File FileName="Assets\Scripts\SpawnScript.js" Line="47" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

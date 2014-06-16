@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\BackgroundScroller.js" />
      <Compile Include="Assets\Scripts\KillEverything.js" />
      <Compile Include="Assets\Scripts\MoveScript.js" />
+     <Compile Include="Assets\Scripts\PlayerRespawn.js" />
      <Compile Include="Assets\Scripts\SpawnScript.js" />
      <Compile Include="Assets\Scripts\TitleGUI.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
