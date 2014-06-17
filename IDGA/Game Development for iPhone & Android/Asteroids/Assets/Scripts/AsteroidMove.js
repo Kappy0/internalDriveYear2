@@ -9,6 +9,8 @@ var zRotSpeed: float = 0.0;
 var eulerAngleVelocity: Vector3 = Vector3(0.0, 0.0, 0.0);
 var rotation: Quaternion = Quaternion.identity;
 
+var explosion: Transform;
+
 Destroy(gameObject, 10);
 
 function Start () {}
@@ -27,6 +29,7 @@ function OnTriggerEnter(deadAsteroid : Collider)
 {
 	if(deadAsteroid.gameObject.tag == "laser")
 	{
+		Instantiate(explosion, transform.position, Quaternion.Euler(0, 0, -90));
 		Destroy(gameObject);
 	}
 }

@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AsteroidMove.js">
     <Files>
-      <File FileName="Assets\Scripts\AsteroidMove.js" Line="21" Column="38" />
+      <File FileName="Assets\Scripts\AsteroidMove.js" Line="12" Column="26" />
+      <File FileName="Assets\Scripts\AsteroidMove.js" Line="12" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
