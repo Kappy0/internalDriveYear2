@@ -16,6 +16,11 @@ function OnGUI()
 {
 	GUI.skin = guiSkin;
 	GUI.Label(Rect((Screen.width / 2) - 280, 0, 400, 100), score.ToString());
+	
+	if(lives < 0)
+	{
+		lives = 0;
+	}
 }
 
 function RespawnPlayer()

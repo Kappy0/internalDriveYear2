@@ -37,6 +37,7 @@ function OnTriggerEnter(deadAsteroid : Collider)
 		//GameController.score += points;
 		Instantiate(explosion, transform.position, Quaternion.Euler(0, 0, -90));
 		Destroy(gameObject);
+		Destroy(deadAsteroid.gameObject);
 	}
 }
 

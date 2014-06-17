@@ -8,6 +8,8 @@ var invincible: boolean = true;
 
 var thruster: Transform;
 
+var isQuitting: boolean = false;
+
 function Start () {}
 
 function Update () 
@@ -35,17 +37,33 @@ function OnTriggerEnter(deadShip : Collider)
 {
 	if(deadShip.gameObject.tag == "asteroid" && !invincible)
 	{
-		GameController.lives--;
-		Destroy(deadShip.gameObject);
 		Destroy(gameObject);
+		Destroy(deadShip.gameObject);
 		
-		Debug.Log(GameController.lives);
+		timer = 0.0;
+	}	
+}
+
+function OnApplicationQuit()
+{
+	isQuitting = true;
+}
+
+function OnDestroy()
+{
+	if(!isQuitting)
+	{
+		GameController.lives--;
+		//Debug.Log(GameController.lives);
+		
+		if(GameController.lives < 0)
+		{
+			GameController.lives = 0;
+		}
 		
 		if(GameController.lives > 0)
 		{
 			gameObject.Find("Stats").GetComponent(GameController).RespawnPlayer();
 		}
-		
-		timer = 0.0;
-	}	
+	}
 }

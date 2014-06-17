@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\BackgroundScroller.js" />
      <Compile Include="Assets\Scripts\GUILivesScript.js" />
      <Compile Include="Assets\Scripts\GameController.js" />
+     <Compile Include="Assets\Scripts\GameOver.js" />
      <Compile Include="Assets\Scripts\KillEverything.js" />
      <Compile Include="Assets\Scripts\LaserScript.js" />
      <Compile Include="Assets\Scripts\MoveScript.js" />
