@@ -9,7 +9,14 @@ var buttonH: int = 50;
 var halfScreenW: float = Screen.width / 2;
 var halfButtonW: float = buttonW / 2;
 
-function Start () {}
+function Start () 
+{
+	buttonW = 100;
+	buttonH = 50;
+	
+	halfScreenW = Screen.width / 2;
+	halfButtonW = buttonW / 2;
+}
 
 function Update () 
 {
@@ -25,10 +32,13 @@ function OnGUI()
 {
 	if(guiTexture.texture == gameOverTexture)
 	{
-		if(GUI.Button(Rect(halfScreenW - halfButtonW, 560, buttonW, buttonH), "Play Again?"))
+		if(GUI.Button(Rect(halfScreenW - halfButtonW, 300, buttonW, buttonH), "Play Again?"))
 		{
 			print("You clicked me!");
-			//Application.LoadLevel("Game");
+			GameController.lives = 3;
+			GameController.score = 0;
+			guiTexture.texture = null;
+			Application.LoadLevel(Application.loadedLevel);
 		}	
 	}
 }

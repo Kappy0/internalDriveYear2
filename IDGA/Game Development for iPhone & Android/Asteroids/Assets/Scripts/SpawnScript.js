@@ -12,7 +12,12 @@ var asteroidPrefab: Rigidbody;
 //var totalSpawns: int = 4;
 //var currentSpawn: int = 0;
 
-function Start () {}
+function Start () 
+{
+	timer = 0.0;
+	
+	isSpawning = false;
+}
 
 function Update () 
 {
@@ -21,7 +26,7 @@ function Update ()
 		timer += Time.deltaTime;
 	}
 	
-	if(timer >= 2)
+	if(timer >= 3)
 	{
 		Spawn();
 	}
@@ -46,9 +51,9 @@ function Spawn()
 //		timer = 0.0;
 //	}
 
-	for(var i = 0; i < 4; i++)
+	for(var i = 0; i < 6; i++)
 	{
-		var Pos = Vector3(Random.Range(-4, 4), 0, 3);
+		var Pos = Vector3(Random.Range(-3.5, 3.5), 0, 3);
 		var newAsteroid: Rigidbody = Instantiate(asteroidPrefab, Pos, Quaternion.identity);
 	}
 

@@ -9,15 +9,25 @@ var zRotSpeed: float = 0.0;
 var eulerAngleVelocity: Vector3 = Vector3(0.0, 0.0, 0.0);
 var rotation: Quaternion = Quaternion.identity;
 
-var collide: boolean = false;
-
 var explosion: Transform;
 
 var points: int;
 
 Destroy(gameObject, 10);
 
-function Start () {}
+function Start () 
+{
+	AsteroidVelocity = -0.50;
+	
+	xRotSpeed = 50;
+	yRotSpeed = 20;
+	zRotSpeed = 30;
+	
+	eulerAngleVelocity = Vector3(0.0, 0.0, 0.0);
+	rotation = Quaternion.identity;	
+	
+	points = 1;
+}
 
 function Update () {}
 
@@ -31,20 +41,16 @@ function FixedUpdate()
 
 function OnTriggerEnter(deadAsteroid : Collider)
 {
-	if(deadAsteroid.gameObject.tag == "laser" && !collide)
+	if(deadAsteroid.gameObject.tag == "laser")
 	{
-		collide = true;
-		//GameController.score += points;
 		Instantiate(explosion, transform.position, Quaternion.Euler(0, 0, -90));
 		Destroy(gameObject);
 		Destroy(deadAsteroid.gameObject);
-	}
-}
-
-function OnDestroy()
-{
-	if(collide)
-	{
 		GameController.score += points;
+	}
+	
+	if(deadAsteroid.gameObject.tag == "asteroid")
+	{
+		Destroy(gameObject);
 	}
 }

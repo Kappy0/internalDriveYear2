@@ -1,13 +1,15 @@
-﻿#pragma strict
+#pragma strict
 
 var laser: GameObject;
 
-var lastShot: float = 0;
-var fireRate: float = 0;
+var lastShot: float = 0.0;
+var fireRate: float = 0.0;
 
-var fireCount: int = 0;
-
-function Start () {}
+function Start () 
+{
+	lastShot = 0.0;
+	fireRate = 0.5;
+}
 
 function Update () 
 {
@@ -16,9 +18,17 @@ function Update ()
 //		Fire();
 //	}
 	
-	if(Input.GetButtonDown("Fire1") && (Time.time > (lastShot + fireRate))) //Fire1 = Spacebar or Ctrl
+//	if(Input.GetButtonDown("Fire1") && (Time.time > (lastShot + fireRate))) //Fire1 = Spacebar or Ctrl
+//	{
+//		Fire();
+//	}
+
+	for(var touch : Touch in Input.touches)
 	{
-		Fire();
+		if(touch.phase == TouchPhase.Began && (Time.time > (lastShot + fireRate))) //Fire1 = Spacebar or Ctrl
+		{
+			Fire();
+		}
 	}
 }
 
