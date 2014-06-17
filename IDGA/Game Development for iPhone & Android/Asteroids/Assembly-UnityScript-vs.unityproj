@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\LaserScript.js" />
      <Compile Include="Assets\Scripts\MoveScript.js" />
      <Compile Include="Assets\Scripts\PlayerRespawn.js" />
+     <Compile Include="Assets\Scripts\RemoveParticleSystem.js" />
      <Compile Include="Assets\Scripts\ShootScript.js" />
      <Compile Include="Assets\Scripts\SpawnScript.js" />
      <Compile Include="Assets\Scripts\TitleGUI.js" />
