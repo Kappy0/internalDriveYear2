@@ -14,7 +14,7 @@ function Update ()
 //		Fire();
 //	}
 	
-	if(Input.GetButtonDown("Fire1") && (Time.time > lastShot + fireRate)) //Fire1 = Spacebar or Ctrl
+	if(Input.GetButtonDown("Fire1") && (Time.time > (lastShot + fireRate))) //Fire1 = Spacebar or Ctrl
 	{
 		lastShot = Time.time;
 		Fire();

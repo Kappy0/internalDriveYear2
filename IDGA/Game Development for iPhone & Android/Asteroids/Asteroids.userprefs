@@ -1,14 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RemoveParticleSystem.js">
-    <Files>
-      <File FileName="Assets\Scripts\AsteroidMove.js" Line="24" Column="28" />
-      <File FileName="Assets\Scripts\MoveScript.js" Line="18" Column="53" />
-      <File FileName="Assets\Scripts\LaserScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ShootScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RemoveParticleSystem.js" Line="9" Column="34" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
