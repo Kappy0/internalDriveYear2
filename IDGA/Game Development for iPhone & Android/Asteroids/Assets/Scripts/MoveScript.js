@@ -35,9 +35,17 @@ function OnTriggerEnter(deadShip : Collider)
 {
 	if(deadShip.gameObject.tag == "asteroid" && !invincible)
 	{
+		GameController.lives--;
+		Destroy(deadShip.gameObject);
 		Destroy(gameObject);
+		
+		Debug.Log(GameController.lives);
+		
+		if(GameController.lives > 0)
+		{
+			gameObject.Find("Stats").GetComponent(GameController).RespawnPlayer();
+		}
+		
 		timer = 0.0;
-	}
-	
-	
+	}	
 }

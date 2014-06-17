@@ -30,7 +30,7 @@ function OnTriggerEnter(gameObj : Collider)
 	if(gameObj.gameObject.tag == "asteroid" && !invincible)
 	{
 		invincible = true;
-		Invoke("RespawnPlayer", 2);
+		Invoke("RespawnPlayer", 3);
 	}
 }
 
