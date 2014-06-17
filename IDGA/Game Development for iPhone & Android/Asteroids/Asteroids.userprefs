@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ShootScript.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AsteroidMove.js">
     <Files>
-      <File FileName="Assets\Scripts\LaserScript.js" Line="9" Column="2" />
-      <File FileName="Assets\Scripts\MoveScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\KillEverything.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpawnScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ShootScript.js" Line="19" Column="24" />
+      <File FileName="Assets\Scripts\AsteroidMove.js" Line="21" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

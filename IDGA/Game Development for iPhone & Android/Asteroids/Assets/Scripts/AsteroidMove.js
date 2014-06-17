@@ -22,3 +22,11 @@ function FixedUpdate()
 	rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
 	rigidbody.AddForce(0.0, 0.0, AsteroidVelocity);
 }
+
+function OnTriggerEnter(deadAsteroid : Collider)
+{
+	if(deadAsteroid.gameObject.tag == "laser")
+	{
+		Destroy(gameObject);
+	}
+}
