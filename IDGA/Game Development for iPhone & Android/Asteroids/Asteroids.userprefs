@@ -1,13 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpawnScript.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Advanced Scripting\Assets\Classes\UseMana.js">
     <Files>
-      <File FileName="Assets\Scripts\MoveScript.js" Line="97" Column="68" />
-      <File FileName="Assets\Scripts\GameOver.js" Line="35" Column="48" />
-      <File FileName="Assets\Scripts\TitleGUI.js" Line="17" Column="51" />
-      <File FileName="Assets\Scripts\AsteroidMove.js" Line="20" Column="26" />
-      <File FileName="Assets\Scripts\GameController.js" Line="18" Column="75" />
-      <File FileName="Assets\Scripts\SpawnScript.js" Line="56" Column="43" />
+      <File FileName="..\Advanced Scripting\Assets\Classes\Inventory.js" Line="38" Column="15" />
+      <File FileName="..\Advanced Scripting\Assets\Classes\UseMana.js" Line="15" Column="78" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
