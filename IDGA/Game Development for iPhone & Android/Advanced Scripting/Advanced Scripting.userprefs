@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Switches\Menu.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Calls and Invoke\ReferenceCreateObject.js">
     <Files>
-      <File FileName="Assets\Switches\Menu.js" Line="60" Column="3" />
-      <File FileName="Assets\Enumerations\RPSGame.js" Line="30" Column="31" />
+      <File FileName="Assets\Calls and Invoke\CreateObject.js" Line="10" Column="22" />
+      <File FileName="Assets\Calls and Invoke\ReferenceCreateObject.js" Line="7" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

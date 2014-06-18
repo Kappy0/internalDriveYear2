@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Calls and Invoke\CreateObject.js" />
+     <Compile Include="Assets\Calls and Invoke\ReferenceCreateObject.js" />
      <Compile Include="Assets\Classes\Inventory.js" />
      <Compile Include="Assets\Classes\UseMana.js" />
      <Compile Include="Assets\Enumerations\RPSGame.js" />
