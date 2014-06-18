@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Classes\Inventory.js" />
      <Compile Include="Assets\Classes\UseMana.js" />
+     <Compile Include="Assets\Lerp\Lerping.js" />
      <Compile Include="Assets\RemoveParticleSystem.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
