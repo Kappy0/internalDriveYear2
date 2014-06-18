@@ -28,8 +28,6 @@ function Update ()
 	
 	myString = PlayerMove.ToString();
 	aiString = aiMove.ToString();
-	
-	CheckScore(playerMove, aiMove);
 }
 
 function OnGUI()
