@@ -50,6 +50,7 @@
      <Compile Include="Assets\Calls and Invoke\ReferenceCreateObject.js" />
      <Compile Include="Assets\Classes\Inventory.js" />
      <Compile Include="Assets\Classes\UseMana.js" />
+     <Compile Include="Assets\Coroutines\PrintTime.js" />
      <Compile Include="Assets\Enumerations\RPSGame.js" />
      <Compile Include="Assets\Lerp\Lerping.js" />
      <Compile Include="Assets\Look At\CameraFollow.js" />
