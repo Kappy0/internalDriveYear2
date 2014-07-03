@@ -22,7 +22,7 @@ int main()
 
    cout << "--------------- WHILE LOOP TEST ---------------" << endl << endl;
 
-   /*int count;
+   int count = 0;
 
    while(count < 100)
    {
@@ -30,7 +30,7 @@ int main()
       count++;
    }
 
-   cout << endl;*/
+   cout << endl;
 
    cout << "--------------- CONDITIONAL TEST ---------------" << endl << endl;
 

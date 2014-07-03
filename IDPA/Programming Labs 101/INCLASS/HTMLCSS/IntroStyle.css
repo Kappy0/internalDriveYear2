@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body
+{
+	background-color: purple;
+}
+
+a
+{
+	/* Comment */
+	color: lime;
+	text-decoration: none;
+}
+
+div
+{
+	background-color: yellow;
+}
