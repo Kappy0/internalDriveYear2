@@ -14,7 +14,7 @@ function OnGUI()
 	var halfScreenW: float = Screen.width / 2.0;
 	var halfButtonW: float = buttonW / 2.0;
     
-	if(GUI.Button(Rect(halfScreenW - halfButtonW, 200, buttonW, buttonH), "Start"))
+	if(GUI.Button(Rect(halfScreenW - halfButtonW, Screen.height / 2, buttonW, buttonH), "Start"))
 	{
 		Debug.Log("HIT!");
 		Application.LoadLevel("Game");

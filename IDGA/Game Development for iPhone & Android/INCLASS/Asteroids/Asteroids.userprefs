@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveShip.js">
+    <Files>
+      <File FileName="Assets\Scripts\GUIButton.js" Line="11" Column="26" />
+      <File FileName="..\..\Asteroids\Assets\Scripts\TitleGUI.js" Line="5" Column="21" />
+      <File FileName="Assets\Scripts\MoveShip.js" Line="9" Column="75" />
+      <File FileName="..\..\Asteroids\Assets\Scripts\MoveScript.js" Line="9" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
