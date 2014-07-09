@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GUIButton.js" />
+     <Compile Include="Assets\Scripts\MoveAsteroid.js" />
      <Compile Include="Assets\Scripts\MoveShip.js" />
+     <Compile Include="Assets\Scripts\SpawnScript.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
