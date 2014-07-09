@@ -13,5 +13,5 @@ function FixedUpdate()
 	var deltaRotation : Quaternion = Quaternion.Euler(euler * Time.deltaTime);
 	rigidbody.MoveRotation(rigidbody.rotation * deltaRotation);
 	rigidbody.AddForce(0, 0, velocity);
-	Destroy(gameObject, 10);
+	//Destroy(gameObject, 10);
 }

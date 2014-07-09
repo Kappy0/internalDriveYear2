@@ -6,7 +6,7 @@ function Start () {}
 
 function Update () {}
 
-function OdnGUI()
+function OnGUI()
 {
 	var buttonW : int = 100;
 	var buttonH : int = 50;
