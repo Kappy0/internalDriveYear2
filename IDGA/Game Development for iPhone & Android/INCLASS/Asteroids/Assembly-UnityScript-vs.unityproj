@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AsteroidDeath.js" />
      <Compile Include="Assets\Scripts\GUIButton.js" />
+     <Compile Include="Assets\Scripts\GameControl.js" />
      <Compile Include="Assets\Scripts\LaserMove.js" />
      <Compile Include="Assets\Scripts\MoveAsteroid.js" />
      <Compile Include="Assets\Scripts\MoveShip.js" />
