@@ -2,6 +2,8 @@
 
 var speed : float = 0.0f;
 
+var isQuitting : boolean = false;
+
 function Start () {}
 
 function Update () 
@@ -16,9 +18,29 @@ function OnCollisionEnter(asteroid : Collision)
 	{
 		Destroy(gameObject);
 		Destroy(asteroid.gameObject);
+	}
+}
+
+function OnApplicationQuit()
+{
+	isQuitting = true;
+}
+
+function OnDestroy()
+{
+	if(!isQuitting)
+	{
+		GameControl.lives--;
+		Debug.Log(GameControl.lives);
 		
-		GameControl.lives -= 1;
+		if(GameControl.lives < 0)
+		{
+			GameControl.lives = 0;
+		}
 		
-		gameObject.Find("GameController").GetComponent(GameControl).Respawn();
+		if(GameControl.lives >= 0)
+		{
+			gameObject.Find("GameController").GetComponent(GameControl).Respawn();
+		}
 	}
 }
