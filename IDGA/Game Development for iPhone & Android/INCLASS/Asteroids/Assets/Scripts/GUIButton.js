@@ -16,6 +16,7 @@ function OnGUI()
 	
 	if(GUI.Button(Rect(halfScreenW - 50, halfScreenH - 25, buttonW, buttonH), "#bodybag"))
 	{
-		Debug.Log("BODIED");
+		Application.LoadLevel("Ummmmmmm");
+		//Debug.Log("BODIED");
 	}
 }

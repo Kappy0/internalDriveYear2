@@ -27,6 +27,9 @@ function OnGUI()
 		if(GUI.Button(Rect(halfScreenW - 50, halfScreenH - 25, buttonW, buttonH), "Nerrrrrrd!"))
 		{
 			Application.LoadLevel("Ummmmmmm");
+			
+			GameControl.lives = 3;
+			guiTexture.texture = null;
 		}
 	}
 }
