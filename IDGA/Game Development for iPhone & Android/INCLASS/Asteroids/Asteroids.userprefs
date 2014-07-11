@@ -2,11 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveShip.js">
     <Files>
-      <File FileName="Assets\Scripts\GUIButton.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameControl.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameOver.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MoveShip.js" Line="34" Column="32" />
-      <File FileName="..\..\Asteroids\Assets\Scripts\MoveScript.js" Line="140" Column="3" />
+      <File FileName="Assets\Scripts\MoveShip.js" Line="3" Column="19" />
+      <File FileName="Assets\Scripts\MoveAsteroid.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameOver.js" Line="23" Column="46" />
+      <File FileName="Assets\Scripts\LaserMove.js" Line="7" Column="16" />
+      <File FileName="Assets\Scripts\SpawnScript.js" Line="9" Column="46" />
+      <File FileName="Assets\Scripts\GameControl.js" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

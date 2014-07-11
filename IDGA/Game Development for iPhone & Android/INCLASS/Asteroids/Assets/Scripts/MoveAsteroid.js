@@ -1,12 +1,17 @@
 ﻿#pragma strict
 
-var velocity : float = 0.0f;
-var euler : Vector3 = Vector3(0, 100, 0);
-var rotation : Quaternion = Quaternion.identity;
+var velocity : float;
+var euler : Vector3;
+var rotation : Quaternion;
 
 var explosion : GameObject;
 
-function Start () {}
+function Start () 
+{
+	velocity = -0.7f;
+	euler = Vector3(0, 100, 0);
+	rotation = Quaternion.identity;
+}
 
 function Update () {}
 

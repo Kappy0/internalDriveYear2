@@ -1,8 +1,11 @@
 ﻿#pragma strict
 
-var speed : float = 0.0f;
+var speed : float;
 
-function Start () {}
+function Start () 
+{
+	speed = 1.74f;
+}
 
 function Update () 
 {

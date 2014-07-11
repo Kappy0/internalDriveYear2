@@ -3,13 +3,17 @@
 var asteroid : Rigidbody;
 //var spawnPos : Transform [];
 
-var isSpawning : boolean = false;
-var timer : float = 0.0f;
+var isSpawning : boolean;
+var timer : float;
 
 //var totalSpawns : int = 4; //Size of Transform array
 //var currentSpawn : int = 0; //Index iterator through Transform array
 
-function Start () {}
+function Start () 
+{
+	isSpawning = false;
+	timer = 0.0f;
+}
 
 function Update () 
 {

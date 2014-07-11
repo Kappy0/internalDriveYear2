@@ -5,16 +5,14 @@ var ContinueSkin : GUISkin;
 
 var playerArr : GameObject[];
 var playerCount : int;
- 
-var buttonW: int = 100;
-var buttonH: int = 50;
- 
-var halfScreenW: float = Screen.width/2;
-var halfButtonW: float = buttonW/2;
 
-static var lives : int = 3;
+static var lives : int;
 
-function Start () {}
+function Start () 
+{
+	lives = 3;
+	playerCount = 0;
+}
 
 function Update () 
 {

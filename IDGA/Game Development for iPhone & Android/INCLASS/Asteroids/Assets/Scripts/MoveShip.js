@@ -1,10 +1,14 @@
 ﻿#pragma strict
 
-var speed : float = 0.0f;
+var speed : float;
 
-var isQuitting : boolean = false;
+var isQuitting : boolean;
 
-function Start () {}
+function Start () 
+{
+	speed = 1.65f;
+	isQuitting = false;
+}
 
 function Update () 
 {
