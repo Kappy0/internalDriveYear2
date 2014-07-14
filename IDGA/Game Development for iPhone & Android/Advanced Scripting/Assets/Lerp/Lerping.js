@@ -19,6 +19,7 @@ function Update ()
     {
         newPosition = position1;
     }
+    
     if(Input.GetKeyDown(KeyCode.D))
     {
         newPosition = position2;

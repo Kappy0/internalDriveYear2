@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Coroutines\PrintTime.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Lerp\Lerping.js">
     <Files>
-      <File FileName="Assets\Coroutines\PrintTime.js" Line="20" Column="2" />
-      <File FileName="Assets\Calls and Invoke\CreateObject.js" Line="1" Column="1" />
-      <File FileName="Assets\Calls and Invoke\ReferenceCreateObject.js" Line="8" Column="2" />
+      <File FileName="Assets\Lerp\Lerping.js" Line="12" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
