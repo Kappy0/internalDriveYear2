@@ -5,7 +5,6 @@ var distance = 15.0;
 var target : Transform;
 
 function Start () {}
-
  
 function Update () 
 {

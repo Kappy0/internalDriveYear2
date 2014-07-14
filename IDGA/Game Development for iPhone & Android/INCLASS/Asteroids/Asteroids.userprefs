@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\..\internalDriveYear2\IDGA\Game Development for iPhone &amp; Android\INCLASS\Asteroids\Assets\Scripts\MoveShip.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\FinalProjectStuff\Assets\Scripts\Move.js">
     <Files>
-      <File FileName="..\..\..\..\..\..\internalDriveYear2\IDGA\Game Development for iPhone &amp; Android\INCLASS\Asteroids\Assets\Scripts\MoveShip.js" Line="20" Column="32" />
+      <File FileName="..\FinalProjectStuff\Assets\Scripts\Move.js" Line="3" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

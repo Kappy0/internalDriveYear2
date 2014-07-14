@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ClickDestroy.js">
+    <Files>
+      <File FileName="..\..\Advanced Scripting\Assets\Lerp\Lerping.js" Line="23" Column="36" />
+      <File FileName="Assets\Scripts\Follow.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Rotate.js" Line="18" Column="2" />
+      <File FileName="Assets\Scripts\LookAtThirdPerson.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Move.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ClickDestroy.js" Line="12" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
