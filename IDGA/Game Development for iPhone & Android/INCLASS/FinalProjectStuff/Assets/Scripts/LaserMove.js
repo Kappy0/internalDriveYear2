@@ -3,21 +3,28 @@
 var velocity : Vector3;
 var speed : float;
 
-function Start () {}
-
-function Update () 
+function Start () 
 {
-	transform.position += velocity * Time.deltaTime * speed;
+	rigidbody.velocity = Vector3.right * speed * -1;
 }
 
-function OnCollisionEnter( info : Collision ) //When we run into something
+function Update () {}
+
+function FixedUpdate()
 {
-    //'Bounce' off surface
-    for( var contact : ContactPoint in info.contacts ) //Find collision point
+	velocity = rigidbody.velocity;
+}
+
+function OnCollisionEnter(obj : Collision)
+{
+    for(var contact : ContactPoint in obj.contacts) 
     {
-        //Find the BOUNCE of the object
-         velocity = 2 * ( Vector3.Dot( velocity, Vector3.Normalize( contact.normal ) ) ) * Vector3.Normalize( contact.normal ) - velocity;
-         velocity *= -1;
-         //transform.rotation = Quaternion.Euler(info.transform.forward);
+         var reflectVel : Vector3 = 2 * (Vector3.Dot(velocity, Vector3.Normalize(contact.normal))) * Vector3.Normalize(contact.normal) - velocity;
+         reflectVel *= -1;
+         
+         rigidbody.velocity = reflectVel;
+         
+         var rotation : Quaternion = Quaternion.FromToRotation(velocity, reflectVel);
+         transform.rotation = rotation * transform.rotation;
     }
 }

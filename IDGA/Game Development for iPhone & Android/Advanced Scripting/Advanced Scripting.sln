@@ -1,11 +1,11 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{EE8C8BAE-3CF8-8064-2BFA-41E3F133444E}") = "Advanced Scripting", "Assembly-CSharp-firstpass.csproj", "{88679802-41C0-5E97-7E16-D0DEB3E5419C}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{88679802-41C0-5E97-7E16-D0DEB3E5419C}"
 EndProject
-Project("{EE8C8BAE-3CF8-8064-2BFA-41E3F133444E}") = "Advanced Scripting", "Assembly-UnityScript-firstpass.unityproj", "{5C11009E-444B-39C1-85C8-89C59E6F79A5}"
+Project("{b955b5aa-9c1c-4cd6-9a10-9e34431be3eb}") = "Assembly-UnityScript-firstpass", "Assembly-UnityScript-firstpass.unityproj", "{5C11009E-444B-39C1-85C8-89C59E6F79A5}"
 EndProject
-Project("{EE8C8BAE-3CF8-8064-2BFA-41E3F133444E}") = "Advanced Scripting", "Assembly-UnityScript.unityproj", "{29FB69E1-4529-ADFE-A70B-4D3DD588539B}"
+Project("{b955b5aa-9c1c-4cd6-9a10-9e34431be3eb}") = "Assembly-UnityScript", "Assembly-UnityScript.unityproj", "{29FB69E1-4529-ADFE-A70B-4D3DD588539B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,39 +13,43 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29FB69E1-4529-ADFE-A70B-4D3DD588539B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29FB69E1-4529-ADFE-A70B-4D3DD588539B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29FB69E1-4529-ADFE-A70B-4D3DD588539B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29FB69E1-4529-ADFE-A70B-4D3DD588539B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C11009E-444B-39C1-85C8-89C59E6F79A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88679802-41C0-5E97-7E16-D0DEB3E5419C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-																							GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp-firstpass.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
 		$1.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $2
 		$2.inheritsSet = Mono
 		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
 		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
+		$3.inheritsSet = VisualStudio
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = VisualStudio
+		$4.inheritsScope = text/plain
+		$4.scope = text/x-unityscript
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-shader
 	EndGlobalSection
-
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 EndGlobal
