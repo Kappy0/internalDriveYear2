@@ -14,6 +14,7 @@ function Update ()
             if (hit.collider.tag == "click") 
             {
                Destroy(hit.collider.gameObject);
+               audio.Play();
             }
          }
     }

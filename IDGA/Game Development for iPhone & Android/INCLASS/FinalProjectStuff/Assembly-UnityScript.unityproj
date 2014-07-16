@@ -47,13 +47,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ClickDestroy.js" />
+     <Compile Include="Assets\Scripts\FindPlayer.js" />
      <Compile Include="Assets\Scripts\Follow.js" />
+     <Compile Include="Assets\Scripts\Force.js" />
      <Compile Include="Assets\Scripts\LaserMove.js" />
      <Compile Include="Assets\Scripts\LookAtThirdPerson.js" />
      <Compile Include="Assets\Scripts\MirrorRotate.js" />
      <Compile Include="Assets\Scripts\Move.js" />
      <Compile Include="Assets\Scripts\Rotate.js" />
      <Compile Include="Assets\Scripts\Shoot.js" />
+     <Compile Include="Assets\Scripts\Spawn.js" />
      <Compile Include="Assets\Scripts\SuperMove.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />

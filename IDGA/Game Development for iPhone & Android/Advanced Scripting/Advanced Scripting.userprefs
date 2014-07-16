@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Calls and Invoke\ReferenceCreateObject.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\INCLASS\FinalProjectStuff\Assets\Scripts\Force.js">
     <Files>
-      <File FileName="..\INCLASS\FinalProjectStuff\Assets\Scripts\Shoot.js" Line="1" Column="1" />
-      <File FileName="..\INCLASS\FinalProjectStuff\Assets\Scripts\LaserMove.js" Line="1" Column="1" />
-      <File FileName="Assets\Calls and Invoke\ReferenceCreateObject.js" Line="10" Column="22" />
-      <File FileName="Assets\Calls and Invoke\CreateObject.js" Line="1" Column="1" />
+      <File FileName="..\INCLASS\FinalProjectStuff\Assets\Scripts\Force.js" Line="19" Column="28" />
+      <File FileName="..\INCLASS\Asteroids\Assets\Scripts\MoveAsteroid.js" Line="10" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
